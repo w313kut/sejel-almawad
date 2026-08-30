@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Tajawal', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #F6F4EF;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes slideDown {
+  from { transform: translate(-50%, -12px); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}

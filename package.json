@@ -1,0 +1,14 @@
+{
+  "name": "sejel-almawad-fullstack",
+  "version": "1.0.0",
+  "description": "نظام إدارة المواد والأسعار الكامل",
+  "main": "backend/server.js",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix backend install && npm --prefix backend run seed && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
